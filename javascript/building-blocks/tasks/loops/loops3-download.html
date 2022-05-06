@@ -42,7 +42,12 @@
 
     // Add your code here
 
-
+    for (i = 6; i > 1; i--) {
+      if (isPrime(i)){
+      para.append(i);
+      continue;
+    }
+  }
     // Don't edit the code below here!
     const section = document.querySelector('section');
     section.appendChild(para);
